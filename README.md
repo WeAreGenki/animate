@@ -1,5 +1,7 @@
 # @wearegenki/animate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/WeAreGenki/animate.svg)](https://greenkeeper.io/)
+
 Lightweight library for complex web animations.
 
 ## Overview
