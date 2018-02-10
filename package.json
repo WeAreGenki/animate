@@ -15,6 +15,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "start": "npm run dev",
     "dev": "microbundle watch",
