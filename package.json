@@ -1,0 +1,33 @@
+{
+  "name": "@wearegenki/animate",
+  "version": "0.0.0",
+  "description": "Lightweight library for complex web animations.",
+  "keywords": [
+    "animation",
+    "svg",
+    "esnext",
+    "wearegenki"
+  ],
+  "repository": "https://github.com/WeAreGenki/animate",
+  "homepage": "https://wearegenki.com/pro#OpenSource",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "lint": "eslint *.js test/unit/specs --config .eslintrc.js",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run lint && npm run unit"
+  },
+  "dependencies": {
+    "animateplus": "^2.0.1"
+  },
+  "devDependencies": {
+    "@wearegenki/eslint-config": "^0.4.2",
+    "eslint": "^4.17.0",
+    "microbundle": "^0.4.3"
+  }
+}
