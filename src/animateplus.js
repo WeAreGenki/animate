@@ -221,6 +221,7 @@ const addAnimations = (options, resolve) => {
     totalDuration: -1
   };
 
+  // XXX: Replace async/await with Promise; see https://github.com/bendc/animateplus/issues/37
   // getElements(elements).forEach(async (element, index) => {
   getElements(elements).forEach((element, index) => {
     const keyframes = createAnimationKeyframes(rest, index);
