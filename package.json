@@ -1,6 +1,6 @@
 {
   "name": "@wearegenki/animate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lightweight library for complex web animations.",
   "keywords": [
     "animation",
