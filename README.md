@@ -4,7 +4,9 @@ Lightweight library for complex web animations.
 
 ## Overview
 
-This is a wrapper for the excellent [Animate Plus](https://github.com/bendc/AnimatePlus) but transplied to more compatible code (no async/await etc.).
+Based on the excellent [Animate Plus](https://github.com/bendc/AnimatePlus) but with the following changes:
+
+* replace async/await with Promise
 
 ## Usage
 

@@ -12,14 +12,7 @@
   "homepage": "https://wearegenki.com/pro#OpenSource",
   "author": "Max Milton <max@wearegenki.com>",
   "license": "Apache-2.0",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "browser": "dist/index.umd.js",
-  "source": "src/animateplus.js",
-  "files": [
-    "dist",
-    "src"
-  ],
+  "main": "src/animateplus.js",
   "scripts": {
     "start": "npm run dev",
     "dev": "microbundle watch",
@@ -32,8 +25,7 @@
   "devDependencies": {
     "@wearegenki/eslint-config": "^0.4.2",
     "animateplus": "^2.0.1",
-    "eslint": "^4.17.0",
-    "microbundle": "^0.4.3"
+    "eslint": "^4.17.0"
   },
   "publishConfig": {
     "access": "public"

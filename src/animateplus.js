@@ -4,7 +4,6 @@
  * http://animateplus.com/license
  */
 
-/* eslint-disable *//* tslint:disable */// @ts-nocheck
 
 // logic
 // =====
@@ -215,27 +214,15 @@ const addAnimations = (options, resolve) => {
     optimize = false,
     direction = "normal",
     change = null,
-    // ...rest
+    ...rest
   } = options;
-
-  // workaround for buble; messy :(
-  // FIXME: Buble currently doesn't support object rest in object destructuring
-  const rest = Object.assign({}, options);
-  delete rest.elements;
-  delete rest.easing;
-  delete rest.duration;
-  delete rest.delay;
-  delete rest.speed;
-  delete rest.loop;
-  delete rest.optimize;
-  delete rest.direction;
-  delete rest.change;
 
   const last = {
     totalDuration: -1
   };
 
-  getElements(elements).forEach(async (element, index) => {
+  // getElements(elements).forEach(async (element, index) => {
+  getElements(elements).forEach((element, index) => {
     const keyframes = createAnimationKeyframes(rest, index);
     const animation = {
       element,
@@ -262,8 +249,11 @@ const addAnimations = (options, resolve) => {
       last.totalDuration = totalDuration;
     }
 
-    if (animationTimeout) await delay(animationTimeout);
-    rAF.add(animation);
+    // if (animationTimeout) await delay(animationTimeout);
+    // rAF.add(animation);
+    animationTimeout
+      ? delay(animationTimeout).then(() => rAF.add(animation))
+      : rAF.add(animation);
   });
 
   const {animation} = last;
