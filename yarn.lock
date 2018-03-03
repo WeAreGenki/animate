@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@wearegenki/eslint-config@^0.4.2":
+"@wearegenki/eslint-config@0.4.2":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@wearegenki/eslint-config/-/eslint-config-0.4.2.tgz#29d7eae70e29d15408930b69ddb3c05dddaf3b63"
   dependencies:
@@ -39,7 +39,7 @@ ajv@^5.2.3, ajv@^5.3.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-animateplus@^2.0.1:
+animateplus@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/animateplus/-/animateplus-2.0.1.tgz#53836d40b56c2be8ddfbfd75e755eed10484fab4"
 
@@ -381,7 +381,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.17.0:
+eslint@4.17.0:
   version "4.17.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.17.0.tgz#dc24bb51ede48df629be7031c71d9dc0ee4f3ddf"
   dependencies:
