@@ -23,9 +23,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@wearegenki/eslint-config": "^0.4.2",
-    "animateplus": "^2.0.1",
-    "eslint": "^4.17.0"
+    "@wearegenki/eslint-config": "0.4.2",
+    "animateplus": "2.0.1",
+    "eslint": "4.17.0"
   },
   "publishConfig": {
     "access": "public"
