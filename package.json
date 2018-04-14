@@ -23,7 +23,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@wearegenki/eslint-config": "0.7.0",
+    "@wearegenki/eslint-config": "0.10.0",
     "animateplus": "2.0.1",
     "eslint": "4.19.1"
   },
