@@ -121,9 +121,9 @@ ajv@^5.2.3, ajv@^5.3.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-animateplus@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/animateplus/-/animateplus-2.0.1.tgz#53836d40b56c2be8ddfbfd75e755eed10484fab4"
+animateplus@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/animateplus/-/animateplus-2.1.1.tgz#9669dcd44e85e98d2d202d962a77c4afc516777a"
 
 ansi-escapes@^3.0.0:
   version "3.0.0"
