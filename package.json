@@ -11,21 +11,16 @@
   "repository": "https://github.com/WeAreGenki/animate",
   "homepage": "https://wearegenki.com/pro#OpenSource",
   "author": "Max Milton <max@wearegenki.com>",
-  "license": "Apache-2.0",
-  "main": "src/animateplus.js",
+  "license": "MIT",
+  "source": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "microbundle watch",
-    "build": "microbundle",
-    "lint": "eslint *.js test/unit/specs --config .eslintrc.js",
-    "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "test": "npm run lint && npm run unit"
+    "build": "microbundle"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@wearegenki/eslint-config": "0.12.0",
-    "animateplus": "2.0.1",
-    "eslint": "4.19.1"
+    "animateplus": "2.1.1",
+    "microbundle": "0.4.4"
   },
   "publishConfig": {
     "access": "public"
