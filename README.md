@@ -1,4 +1,10 @@
-# @wearegenki/animate
+<!-- markdownlint-disable first-line-h1 -->
+
+**WARNING: This project is no longer maintained. Use the [upstream package](https://github.com/bendc/AnimatePlus). See [`minna-ui`](https://github.com/WeAreGenki/minna-ui), our new web UI framework.**
+
+-----
+
+# `@wearegenki/animate`
 
 Lightweight library for complex web animations.
 
